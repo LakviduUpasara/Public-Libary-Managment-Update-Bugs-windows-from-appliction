@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{65832F96-FAD8-4263-AB2C-7ED8894C1DC8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Public_Libary_managment_System</RootNamespace>
+    <AssemblyName>Public Libary managment System</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Project All\Project All\Esoft\software\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7B33248B54CBD6DD9D3636B6B9EB2EF22AE7866D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Public Libary managment System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAuthor.Designer.cs">
+      <DependentUpon>AddAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendence.Designer.cs">
+      <DependentUpon>Attendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookManagement.Designer.cs">
+      <DependentUpon>BookManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CHENGE PASSWORD .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHENGE PASSWORD .Designer.cs">
+      <DependentUpon>CHENGE PASSWORD .cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateUser.Designer.cs">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBord.Designer.cs">
+      <DependentUpon>DashBord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection1.cs" />
+    <Compile Include="DeleateReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleateReader.Designer.cs">
+      <DependentUpon>DeleateReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoubleClick .cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditReadeFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditReadeFrom.Designer.cs">
+      <DependentUpon>EditReadeFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPasswordf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgetPasswordf.Designer.cs">
+      <DependentUpon>ForgetPasswordf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fromLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fromLogin.Designer.cs">
+      <DependentUpon>fromLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IssueBookFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IssueBookFrom.Designer.cs">
+      <DependentUpon>IssueBookFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Libary_Manament_SystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Libary_Manament_SystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublisherManagment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PublisherManagment.Designer.cs">
+      <DependentUpon>PublisherManagment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reader_Managment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reader_Managment.Designer.cs">
+      <DependentUpon>Reader_Managment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnBook.Designer.cs">
+      <DependentUpon>ReturnBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Systemcs.cs" />
+    <Compile Include="User Profile Managment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Profile Managment.Designer.cs">
+      <DependentUpon>User Profile Managment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewReaderfrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewReaderfrom.Designer.cs">
+      <DependentUpon>ViewReaderfrom.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddAuthor.resx">
+      <DependentUpon>AddAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendence.resx">
+      <DependentUpon>Attendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookManagement.resx">
+      <DependentUpon>BookManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHENGE PASSWORD .resx">
+      <DependentUpon>CHENGE PASSWORD .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateUser.resx">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBord.resx">
+      <DependentUpon>DashBord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleateReader.resx">
+      <DependentUpon>DeleateReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditReadeFrom.resx">
+      <DependentUpon>EditReadeFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPasswordf.resx">
+      <DependentUpon>ForgetPasswordf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fromLogin.resx">
+      <DependentUpon>fromLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssueBookFrom.resx">
+      <DependentUpon>IssueBookFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PublisherManagment.resx">
+      <DependentUpon>PublisherManagment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reader_Managment.resx">
+      <DependentUpon>Reader_Managment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReturnBook.resx">
+      <DependentUpon>ReturnBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Profile Managment.resx">
+      <DependentUpon>User Profile Managment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewReaderfrom.resx">
+      <DependentUpon>ViewReaderfrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Libary_Manament_SystemDataSet.xsc">
+      <DependentUpon>Libary_Manament_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Libary_Manament_SystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Libary_Manament_SystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Libary_Manament_SystemDataSet.xss">
+      <DependentUpon>Libary_Manament_SystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Public Libary managment System_TemporaryKey.pfx" />
+    <None Include="Resources\Untitled-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\education-logo-library-vector-university-223144385.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\education-logo-library-vector-university-223144385.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0Wonwb.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\540646-library-background-image-1920x1280-tablet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %283%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %284%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %285%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %286%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %287%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
